@@ -12,7 +12,7 @@ class ReverseInteger007 {
     	reverseInt = temp;
     }
 
-    if (reverseInt < -2147483648 || reverseInt > 2147483647){
+    if (reverseInt < Integer.MIN_VALUE || reverseInt > Integer.MAX_VALUE){
         	reverseInt = 0;
     }
     return reverseInt;
